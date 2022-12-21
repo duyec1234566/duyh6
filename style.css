@@ -1,0 +1,45 @@
+body{ 
+    box-sizing: border-box;
+}
+.container {
+    align-items: center;
+}
+form {
+    background-color: rgb(232, 229, 225);
+    margin: 10%;
+    border: 0.5px solid rgb(158, 147, 147);
+    border-radius: 5px;
+    padding: 5%;
+    max-width: 600px;
+}
+input{
+    margin-bottom: 10px;
+    border: 0.5px solid rgb(158, 147, 147);
+width: 80%;}
+.btn {
+    margin-top: 10px;
+    background-color: blue;
+    color: aliceblue;
+    width: 70px;
+}
+table {
+    max-width: 600px;
+}
+.failure-icon, .error {
+    color: red;
+}
+.success-icon {
+    color: green;
+}
+.error {
+    font-size: 14.5px;
+    margin-top: 5px;
+}
+.success-icon, .failure-icon {
+    right: 0;
+    opacity: 0;
+}
+.account button {
+    border: none;
+    color: #4b82fa;
+}
